@@ -1,0 +1,31 @@
+{
+  "name": "blockscss",
+  "version": "1.0.3",
+  "description": "BlockSCSS CSS Framework",
+  "main": "main.js",
+  "scripts": {
+    "dev": "webpack --env.NODE_ENV=development --watch",
+    "build": "webpack --env.NODE_ENV=production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pau Casanellas <pcasanellasp@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.7.1",
+    "css-loader": "^3.2.0",
+    "eslint": "^6.6.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "mini-css-extract-plugin": "^0.8.0",
+    "node-sass": "^4.13.0",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^8.0.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "fibers": "^4.0.2",
+    "sass": "^1.23.7"
+  }
+}
