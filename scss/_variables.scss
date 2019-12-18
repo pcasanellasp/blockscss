@@ -78,14 +78,11 @@ $hero-title:								2rem;
 $hero-title-desktop:				3rem;
 
 // Navbar
-$header-bg-color:					white;
-$header-link-color:				black;
-$header-height:							70px;
-$header-padding:						0;
-$navbar-font-size:					1rem;
-$navbar-font-weight: 				400;
-
+$navbar-bg-color:					white;
+$navbar-link-color:				black;
+$navbar-font-size:				  1rem;
 $navbar-breakpoint:					$breakpoint-sm;
+$navbar-padding:            0.75rem 1rem;
 $navbar-offside-width: 			280px;
 
 // Buttons

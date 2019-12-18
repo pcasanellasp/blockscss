@@ -1,0 +1,40 @@
+.navbar,
+.navbar .container,
+.navbar .container-fluid,
+.navbar .container-big,
+.navbar .container-extra {
+  background-color: $navbar-bg-color;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.navbar-left {
+  margin-right: auto;
+}
+
+.navbar-center {
+  margin: 0 auto;
+}
+
+.navbar-right {
+  margin-left: auto;
+}
+
+.navbar-item {
+  display: inline-block;
+  padding: $navbar-padding;
+  color: $navbar-link-color;
+  font-size: $navbar-font-size;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  span {
+    margin-left: 1rem;
+  }
+}
