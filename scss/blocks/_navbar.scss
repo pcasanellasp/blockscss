@@ -38,3 +38,16 @@
     margin-left: 1rem;
   }
 }
+
+.navbar-scrolling {
+	overflow-y: hidden;
+	overflow-x: auto;
+	white-space: nowrap;
+	position: relative;
+  display: block;
+  -ms-overflow-style: none;
+  
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
