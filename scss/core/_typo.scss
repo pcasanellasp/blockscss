@@ -1,0 +1,95 @@
+a {
+	color: $color-link;
+	text-decoration: none;
+
+	&:hover{
+		color: $color-link-hover;
+	}
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	font-weight: 			$headings-font-weight;
+	line-height: 			$line-height-small;
+	text-rendering: 	optimizeLegibility;
+	color: 						$headings-color;
+
+	a{
+		color: inherit;
+		&:hover{
+			text-decoration: none;
+		}
+	}
+
+	small{
+		font-weight: normal;
+		line-height: 1;
+		font-weight: 400;
+		line-height: 1.35;
+		letter-spacing: -0.02em;
+		font-size: 75%;
+	}
+}
+
+.lead {
+	font-size: 1.25rem;
+}
+
+h1, .h1 {
+	font-size: $heading-font-size-1;
+}
+
+h2, .h2 {
+	font-size: $heading-font-size-2;
+}
+
+h3, .h3 {
+	font-size: $heading-font-size-3;
+}
+
+h4, .h4 {
+	font-size: $heading-font-size-4;
+}
+
+h5, .h5 {
+	font-size: $heading-font-size-5;
+}
+
+h6, .h6 {
+	font-size: $heading-font-size-6;
+}
+
+p, blockquote, hr, ol, ul, dl, fieldset, address, form {
+	font-size: 1.125rem;
+}
+
+ol, ul {
+	padding-left: 2rem;
+}
+
+mark, code, samp, kbd {
+	position: relative;
+	top: -1px;
+	padding: 4px 4px 2px 4px;
+	display: inline-block;
+	line-height: 1;
+	color: rgba(49, 52, 57, 0.85);
+}
+
+time, cite, small, .small, figcaption, summary, details p {
+	font-size: $font-size-small;
+}
+
+abbr[title], dfn[title] {
+	border-bottom: 1px dotted rgba(0, 0, 0, .5);
+	text-decoration: none;
+	cursor: help;
+}
+
+mark{
+	background-color: yellow;
+}
+
+address{
+	font-style: normal;
+	line-height: inherit;
+}

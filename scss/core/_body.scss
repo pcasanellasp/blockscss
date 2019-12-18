@@ -1,0 +1,37 @@
+body {
+	font-family:				$body-font-family;
+	font-size:					$font-size;
+	font-weight: 				400;
+	color:							$body-color;
+	line-height: 				$line-height;
+	word-wrap: 					break-word;
+	background-color: 	white;
+}
+
+input,
+button,
+select,
+textarea {
+	font-family: inherit;
+	font-size: inherit;
+	line-height: inherit;
+}
+
+hr {
+	margin: 2rem 0;
+	height: 1px;
+	border: 0;
+	border-top: $hr;
+}
+
+figure {
+	display: inline-block;
+	img {
+		margin-bottom: 0.5rem;
+		line-height: 1;
+	}
+	figcaption {
+		font-size: 1rem;
+		color: #818a91;
+	}
+}
