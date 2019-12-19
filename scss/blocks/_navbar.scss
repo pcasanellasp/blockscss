@@ -4,10 +4,40 @@
 .navbar .container-big,
 .navbar .container-extra {
   background-color: $navbar-bg-color;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.navbar-sticky {
+  position: sticky;
+  top: 0;
+}
+
+.navbar-drawer {
+  display: none;
+  padding: 1rem;
+  width: 100%;
+
+  &.is-active {
+    display: block;
+  }
+
+  &.full {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    z-index: 10;
+    background-color: white;
+  }
+
+  .navbar-item{
+    width: 100%;
+  }
 }
 
 .navbar-left {
@@ -39,14 +69,29 @@
   }
 }
 
+.navbar-trigger {
+  font-size: $navbar-trigger-size;
+}
+
+.navbar-orbital {
+  font-size: $navbar-trigger-size;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 100%;
+  box-shadow: $shadow-4d;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+}
+
 .navbar-scrolling {
-	overflow-y: hidden;
-	overflow-x: auto;
-	white-space: nowrap;
-	position: relative;
+  overflow-y: hidden;
+  overflow-x: auto;
+  white-space: nowrap;
+  position: relative;
   display: block;
   -ms-overflow-style: none;
-  
+
   &::-webkit-scrollbar {
     display: none;
   }

@@ -1,0 +1,17 @@
+.mobile {
+  display: block !important;
+}
+
+.desktop {
+  display: none !important;
+}
+
+@media (min-width: $breakpoint-md) {
+  .mobile {
+    display: none !important;
+  }
+
+  .desktop {
+    display: block !important;
+  }
+}

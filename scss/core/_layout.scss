@@ -1,23 +1,25 @@
-.container, .container-big, .container-extra {
-	margin: 			0 auto;
-	padding:			0 1rem;
-	max-width:			100%;
+.container,
+.container-big,
+.container-extra {
+  margin: 0 auto;
+  padding: 0 1rem;
+  max-width: 100%;
 }
 
 .container {
-	width:				$container;
+  width: $container;
 }
 
 .container-big {
-	width:				$container-big;
+  width: $container-big;
 }
 
 .container-extra {
-	width:				$container-extra;
+  width: $container-extra;
 }
 
 .container-fluid {
-	padding: 1rem;
-	max-width:	100%;
-	width: 100%;
+  padding: 1rem;
+  max-width: 100%;
+  width: 100%;
 }

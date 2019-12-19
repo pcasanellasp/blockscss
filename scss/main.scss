@@ -1,8 +1,11 @@
-@import 'variables';
-@import 'core/reset';
-@import 'core/body';
-@import 'core/typo';
-@import 'core/layout';
+@import "variables";
+@import "core/reset";
+@import "core/body";
+@import "core/typo";
+@import "core/layout";
 
-@import 'blocks/navbar';
-@import 'helpers/height'
+@import "blocks/navbar";
+
+@import "helpers/responsive";
+@import "helpers/height";
+@import "helpers/typo";

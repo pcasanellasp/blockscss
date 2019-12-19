@@ -1,31 +1,40 @@
 *,
 *:before,
 *:after {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 * {
-	margin: 0;
-	padding: 0;
-	outline: 0;
-	-webkit-overflow-scrolling: touch;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  -webkit-overflow-scrolling: touch;
 }
 
 html {
-	font-size: 16px;
-	font-family: sans-serif;
-	-webkit-text-size-adjust: 100%;
-	-ms-text-size-adjust: 100%;
-	-ms-overflow-style: scrollbar;
-	-webkit-tap-highlight-color: transparent;
-	scroll-behavior: smooth;
+  font-size: 16px;
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -ms-overflow-style: scrollbar;
+  -webkit-tap-highlight-color: transparent;
+  scroll-behavior: smooth;
 }
 
 @-ms-viewport {
   width: device-width;
 }
 
-article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
   display: block;
 }
 
@@ -35,29 +44,32 @@ iframe,
 img,
 svg,
 video {
-	vertical-align: middle;
-	max-width: 100%;
+  vertical-align: middle;
+  max-width: 100%;
 }
 
-img, video {
-	height: auto;
+img,
+video {
+  height: auto;
 }
 
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
-a, button:focus, .btn:focus {
-	outline: 0;
+a,
+button:focus,
+.btn:focus {
+  outline: 0;
 }
 
 p img {
-	margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 textarea {
-	resize: vertical;
+  resize: vertical;
 }
 
 ::placeholder {
@@ -65,7 +77,7 @@ textarea {
 }
 
 [role="button"] {
-	cursor: pointer;
+  cursor: pointer;
 }
 
 label[for] {
@@ -73,7 +85,7 @@ label[for] {
 }
 
 [tabindex="-1"]:focus {
-	outline: none;
+  outline: none;
 }
 
 progress {
@@ -81,34 +93,36 @@ progress {
 }
 
 pre {
-	overflow: hidden;
-	font-family: inherit;
+  overflow: hidden;
+  font-family: inherit;
 }
 
 dt {
-	font-weight: bold;
-	text-decoration: underline;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 dd {
-	margin: 0;
-	padding: 0 0 0.5em 0;
+  margin: 0;
+  padding: 0 0 0.5em 0;
 }
 
-b, strong {
-	font-weight: bold;
+b,
+strong {
+  font-weight: bold;
 }
 
-i, em {
-	font-style: italic;
+i,
+em {
+  font-style: italic;
 }
 
-figure{
-	margin-bottom: 1rem;
+figure {
+  margin-bottom: 1rem;
 }
 
-fieldset{
-	padding: 1rem;
+fieldset {
+  padding: 1rem;
 }
 
 // IE
