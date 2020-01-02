@@ -23,3 +23,28 @@
   max-width: 100%;
   width: 100%;
 }
+
+.no-gap {
+  padding: 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+  grid-gap: 1rem;
+
+  .column {
+    padding: 1rem;
+  }
+}

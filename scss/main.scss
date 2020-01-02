@@ -3,9 +3,14 @@
 @import "core/body";
 @import "core/typo";
 @import "core/layout";
+@import "core/content";
 
 @import "blocks/navbar";
+@import "blocks/hero";
 
+
+@import "helpers/colors";
 @import "helpers/responsive";
 @import "helpers/height";
+@import "helpers/width";
 @import "helpers/typo";

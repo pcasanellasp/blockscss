@@ -1,0 +1,9 @@
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+  .title, .lead {
+    margin-bottom: 1.5rem;
+  }
+}
