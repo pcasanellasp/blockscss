@@ -25,6 +25,11 @@ $color-yellow: #ffc107 !default;
 $color-green: #28a745 !default;
 $color-indigo: #4b0082 !default;
 
+
+$colors: (
+  "primary": ($color-primary, #ffffff),
+);
+
 //Font Families
 $body-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif,
   "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;

@@ -1,0 +1,149 @@
+@media (min-width: $breakpoint-md) {
+  // Core/Layout
+  .mobile {
+    display: none !important;
+  }
+
+  .desktop {
+    display: block !important;
+  }
+
+  .grid {
+    &.columns-2 {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    &.columns-3 {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    &.columns-4 {
+      grid-template-columns: repeat(4, 1fr);
+    }
+
+    &.columns-5 {
+      grid-template-columns: repeat(5, 1fr);
+    }
+
+    &.columns-6 {
+      grid-template-columns: repeat(6, 1fr);
+    }
+  }
+
+  .fwd {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw
+  }
+
+  // Components/Buttons
+  .btn {
+    width: auto;
+  }
+
+  // Helpers/Height
+  .vhd-10 {
+    min-height: 10vh !important;
+  }
+
+  .vhd-15 {
+    min-height: 15vh !important;
+  }
+
+  .vhd-20 {
+    min-height: 20vh !important;
+  }
+
+  .vhd-25 {
+    min-height: 25vh !important;
+  }
+
+  .vhd-30 {
+    min-height: 30vh !important;
+  }
+
+  .vhd-35 {
+    min-height: 35vh !important;
+  }
+
+  .vhd-40 {
+    min-height: 40vh !important;
+  }
+
+  .vhd-45 {
+    min-height: 45vh !important;
+  }
+
+  .vhd-50 {
+    min-height: 50vh !important;
+  }
+
+  .vhd-55 {
+    min-height: 55vh !important;
+  }
+
+  .vhd-60 {
+    min-height: 60vh !important;
+  }
+
+  .vhd-65 {
+    min-height: 65vh !important;
+  }
+
+  .vhd-70 {
+    min-height: 70vh !important;
+  }
+
+  .vhd-75 {
+    min-height: 75vh !important;
+  }
+
+  .vhd-80 {
+    min-height: 80vh !important;
+  }
+
+  .vhd-85 {
+    min-height: 85vh !important;
+  }
+
+  .vhd-90 {
+    min-height: 90vh !important;
+  }
+
+  .vhd-95 {
+    min-height: 95vh !important;
+  }
+
+  .vhd-100 {
+    min-height: 100vh !important;
+  }
+
+  // Blocks/Masonry
+  .masonry-2 {
+    column-count: 2;
+  }
+  .masonry-3 {
+    column-count: 3;
+  }
+  .masonry-4 {
+    column-count: 4;
+  }
+  .masonry-5 {
+    column-count: 5;
+  }
+  .masonry-6 {
+    column-count: 6;
+  }
+  .masonry-7 {
+    column-count: 7;
+  }
+  .masonry-8 {
+    column-count: 8;
+  }
+  .masonry-9 {
+    column-count: 9;
+  }
+}

@@ -16,6 +16,11 @@
 - Cards
 - Chips
 - Tables
-- Dialogs
+- Modal
 - Forms
 - Grids
+
+
+# Templates
+- Login Block
+- Login Half
