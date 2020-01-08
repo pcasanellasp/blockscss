@@ -92,7 +92,6 @@ ul {
   padding-left: 2rem;
 }
 
-mark,
 code,
 samp,
 kbd {
@@ -100,6 +99,7 @@ kbd {
   top: -1px;
   padding: 4px 4px 2px 4px;
   display: inline-block;
+  font-family: $monospace-font-family;
   line-height: 1;
   color: rgba(49, 52, 57, 0.85);
 }
