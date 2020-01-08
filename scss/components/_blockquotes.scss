@@ -1,52 +1,52 @@
 blockquote,
 .blockquote {
-    padding: 1rem;
-    position: relative;
-    border-left: 4px solid #aaa;
-    background-color: #fdfdfd;
-    color: rgba(0, 0, 0, .65)
+  padding: 1rem;
+  position: relative;
+  border-left: 4px solid #aaa;
+  background-color: #fdfdfd;
+  color: rgba(0, 0, 0, 0.65);
 }
 
 blockquote p,
 .blockquote p {
-    margin-bottom: 0
+  margin-bottom: 0;
 }
 
 blockquote cite,
 .blockquote cite {
-    margin-top: 1rem;
-    display: block
+  margin-top: 1rem;
+  display: block;
 }
 
-blockquote[class*='bg-'] {
-    color: white
+blockquote[class*="bg-"] {
+  color: white;
 }
 
 .quoted,
 .double-quoted {
-    padding-left: 3rem
+  padding-left: 3rem;
 }
 
 .quoted::before {
-    content: "\201C";
-    font-size: 4rem;
-    position: absolute;
-    left: 10px;
-    top: -10px
+  content: "\201C";
+  font-size: 4rem;
+  position: absolute;
+  left: 10px;
+  top: -10px;
 }
 
 .double-quoted::before {
-    content: "\201C";
-    font-size: 4rem;
-    position: absolute;
-    left: 10px;
-    top: -10px
+  content: "\201C";
+  font-size: 4rem;
+  position: absolute;
+  left: 10px;
+  top: -10px;
 }
 
 .double-quoted::after {
-    content: "\201C";
-    font-size: 4rem;
-    position: absolute;
-    right: 10px;
-    top: -10px
+  content: "\201C";
+  font-size: 4rem;
+  position: absolute;
+  right: 10px;
+  top: -10px;
 }

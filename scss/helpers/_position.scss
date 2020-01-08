@@ -1,52 +1,52 @@
 .float-right {
-  float: right
+  float: right;
 }
 
 .float-left {
-  float: right
+  float: right;
 }
 
 .float-none {
-  float: none
+  float: none;
 }
 
 .absolute {
-  position: absolute
+  position: absolute;
 }
 
 .relative {
-  position: relative
+  position: relative;
 }
 
 .fixed {
-  position: fixed
+  position: fixed;
 }
 
 .sticky {
   position: -webkit-sticky;
   position: sticky;
-  top: 0
+  top: 0;
 }
 
 .to-top {
-  top: 0
+  top: 0;
 }
 
 .to-bottom {
-  bottom: 0
+  bottom: 0;
 }
 
 .to-left {
-  left: 0
+  left: 0;
 }
 
 .to-right {
-  right: 0
+  right: 0;
 }
 
 .to-none {
   top: auto;
   right: auto;
   bottom: auto;
-  left: auto
+  left: auto;
 }

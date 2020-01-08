@@ -2,6 +2,8 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  position: relative;
+  background-size: cover;
 
   .title, .lead {
     margin-bottom: 1.5rem;

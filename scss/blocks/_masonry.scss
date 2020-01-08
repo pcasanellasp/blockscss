@@ -3,19 +3,21 @@
   column-gap: 0.5rem;
   margin-bottom: 1rem;
   display: block;
-}
 
-.masonry > div {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  display: inline-block;
-  background: #fff;
-  margin-bottom: 0.5rem;
-  width: 100%;
-  max-width: 100%;
-}
+  &.no-gap {
+    column-gap: 0;
+  }
 
-.masonry > div img {
-  width: 100%;
-  margin-bottom: 0;
+  .item {
+    display: inline-block;
+    background: #fff;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    max-width: 100%;
+
+    img {
+      width: 100%;
+      margin-bottom: 0;
+    }
+  }
 }

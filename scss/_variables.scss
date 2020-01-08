@@ -9,14 +9,14 @@ $columns: 12 !default;
 $color-primary: #3f51b5 !default;
 $color-secondary: #ffb500 !default;
 $color-transparent: transparent !default;
-$color-white: #ffffff !default;
+$color-white: white !default;
 $color-grey-lighter: #eeeeee !default;
 $color-grey-light: #dedede !default;
 $color-grey: #aaaaaa !default;
 $color-grey-dark: #777777 !default;
 $color-grey-darker: #333333 !default;
-$color-black: #000000 !default;
-$color-blue: hsl(217, 71%, 53%) !default;
+$color-black: black !default;
+$color-blue: #3273dc !default;
 $color-purple: #9c27b0 !default;
 $color-pink: #e91e63 !default;
 $color-red: #f44336 !default;
@@ -25,9 +25,19 @@ $color-yellow: #ffc107 !default;
 $color-green: #48c774 !default;
 $color-indigo: #4b0082 !default;
 
-
+// Colors Map
 $colors: (
-  "primary": ($color-primary, #ffffff),
+  "primary": ($color-primary, white),
+  "secondary": ($color-secondary, black),
+  "black": ($color-black, white),
+  "blue": ($color-blue, white),
+  "purple": ($color-purple, white),
+  "pink": ($color-pink, white),
+  "red": ($color-red, white),
+  "orange": ($color-orange, white),
+  "yellow": ($color-yellow, black),
+  "green": ($color-green, white),
+  "indigo": ($color-indigo, white),
 );
 
 //Font Families
