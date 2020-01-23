@@ -1,0 +1,28 @@
+.card {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+  box-shadow: #{map-get($shadows, "md")};
+  border: 1px solid #ccc;
+
+  .card-header,
+  .card-content,
+  .card-footer {
+    padding: 1rem;
+  }
+
+  .card-image {
+    margin: 0;
+  }
+
+  .card-title {
+    font-size: 1.25rem;
+    margin-top: 0;
+  }
+
+  .card-footer {
+    margin-top: auto;
+  }
+}
