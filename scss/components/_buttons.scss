@@ -60,9 +60,10 @@
   .btn-#{$name} {
     background-color: nth($value, 1);
     color: nth($value, 2);
-
+    border: 1px solid nth($value, 1);
     &.btn-3d {
       border-bottom: 5px solid darken(nth($value, 1), 25%);
+      transition: 0.3s all;
     }
 
     &:hover,
@@ -71,7 +72,8 @@
     &.active,
     &:active:hover,
     &:active:focus {
-      background-color: darken(nth($value, 1), 25%);
+      background-color: darken(nth($value, 1), 15%);
+      border: 1px solid darken(nth($value, 1), 15%);
       color: nth($value, 2);
     }
 

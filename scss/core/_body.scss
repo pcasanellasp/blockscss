@@ -26,6 +26,9 @@ hr {
 
 figure {
   display: inline-block;
+  img {
+    width: 100%;
+  }
   figcaption {
     font-size: 1rem;
     color: #818a91;
