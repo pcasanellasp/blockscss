@@ -29,6 +29,13 @@ $color-indigo: #4b0082 !default;
 $colors: (
   "primary": ($color-primary, white),
   "secondary": ($color-secondary, black),
+  "transparent": ($color-transparent, black),
+  "white": ($color-white, black),
+  "grey-lighter": ($color-grey-lighter, black),
+  "grey-light": ($color-grey-light, black),
+  "grey": ($color-grey, black),
+  "grey-dark": ($color-grey-dark, black),
+  "grey-darker": ($color-grey-darker, white),
   "black": ($color-black, white),
   "blue": ($color-blue, white),
   "purple": ($color-purple, white),
@@ -43,6 +50,7 @@ $colors: (
 // Shadows
 $shadows: (
   'base': '0 1px 2px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)',
+  'sm': '0 4px 6px 2px rgba(0, 0, 0, 0.1), 0 4px 6px 2px rgba(0, 0, 0, 0.06)',
   'md': '0 4px 6px 2px rgba(0, 0, 0, 0.1), 0 4px 6px 2px rgba(0, 0, 0, 0.06)',
   'lg': '0 10px 15px 4px rgba(0, 0, 0, 0.1), 0 10px 15px 4px rgba(0, 0, 0, 0.05)',
   'xl': '0 20px 25px 8px rgba(0, 0, 0, 0.1), 0 20px 25px 8px rgba(0, 0, 0, 0.04)',

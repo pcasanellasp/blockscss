@@ -1,0 +1,22 @@
+.badge {
+  display: inline-block;
+  padding: .25rem .4rem;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  border-radius: .20rem;
+  font-size: .75rem;
+  margin: auto;
+  
+  a {
+    color: inherit;
+  }
+
+  @each $name, $value in $colors {
+    &.badge-#{$name} {
+      background-color: nth($value, 1);
+      color: nth($value, 2);
+    }
+  }
+}
+
