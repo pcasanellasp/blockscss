@@ -1,11 +1,11 @@
 .card {
   background-color: white;
+  border-radius: .25rem;
   display: flex;
   flex-direction: column;
-  max-width: 400px;
   height: 100%;
   margin: 0 auto;
-  border-radius: .25rem;
+  max-width: 400px;
   overflow: hidden;
 
   .card-header,

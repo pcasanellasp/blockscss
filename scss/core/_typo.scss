@@ -5,6 +5,10 @@ a {
   &:hover {
     color: $color-link-hover;
   }
+
+  strong, b {
+    color: inherit;
+  }
 }
 
 h1,
