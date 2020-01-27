@@ -18,11 +18,14 @@ module.exports = env => {
         filename: devMode ? '[name].css' : '[name].[hash].css',
         chunkFilename: devMode ? '[id].css' : '[id].[hash].css'
       }),
-      new webpack.SourceMapDevToolPlugin({}),
+      new webpack.SourceMapDevToolPlugin({
+        filename: '[file].map[query]'
+      }),
       {
         apply (compiler) {
           compiler.hooks.shouldEmit.tap('Remove styles from output', (compilation) => {
             delete compilation.assets['main.js']
+            delete compilation.assets['main.js.map']
             return true
           })
         }
