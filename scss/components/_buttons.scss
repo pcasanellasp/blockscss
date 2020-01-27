@@ -9,6 +9,7 @@
   max-width: 100%;
   padding: 0.5rem 1rem;
   text-align: center;
+  transition: 0.3s all;
   user-select: none;
   width: 100%;
 
@@ -61,10 +62,6 @@
     background-color: nth($value, 1);
     color: nth($value, 2);
     border: 1px solid nth($value, 1);
-    &.btn-3d {
-      border-bottom: 5px solid darken(nth($value, 1), 25%);
-      transition: 0.3s all;
-    }
 
     &:hover,
     &:focus,
@@ -75,6 +72,10 @@
       background-color: darken(nth($value, 1), 15%);
       border: 1px solid darken(nth($value, 1), 15%);
       color: nth($value, 2);
+    }
+
+    &.btn-3d {
+      border-bottom: 5px solid darken(nth($value, 1), 25%);
     }
 
     &.btn-outline {

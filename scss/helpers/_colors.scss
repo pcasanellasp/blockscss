@@ -1,7 +1,6 @@
 @each $name, $value in $colors {
   .bg-#{$name} {
     background-color: nth($value, 1) !important;
-    color: nth($value, 2) !important;
   }
 
   .color-#{$name} {
