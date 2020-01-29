@@ -1,0 +1,30 @@
+.alert {
+  margin-bottom: 15px;
+  display: block;
+  padding: 10px 15px;
+  border-radius: 6px;
+  position: relative;
+  cursor: pointer;
+}
+.alert:before, .alert:after {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 16px;
+  border-radius: 40px;
+  right: 30px;
+  top: 8px;
+}
+.alert:before {
+  transform: rotate(45deg) translateY(-5.5px) translateX(13.5px);
+}
+.alert:after {
+  transform: rotate(-45deg) translateY(13.5px) translateX(5.5px);
+}
+
+@each $name, $value in $colors {
+  .alert-#{$name} {
+    background-color: nth($value, 1) !important;
+    color: darken(nth($value, 1), 15%); 
+  }
+}
