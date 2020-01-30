@@ -45,6 +45,10 @@
   align-self: stretch;
 }
 
+.space-between {
+  justify-content: space-between;
+}
+
 .grid {
   display: grid;
   gap: 1rem;
