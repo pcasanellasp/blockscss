@@ -1,0 +1,64 @@
+// Details Base
+
+.dropdown {
+  font-size: 1rem;
+  max-width: 300px;
+  position: relative;
+  width: 100%;
+
+  > .dropdown-trigger {
+    border: 1px solid #ccc;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    width: 100%;
+  }
+
+  > .dropdown-content {
+    background: white;
+    border: 1px solid #ccc;
+    display: none;
+    font-size: 1rem;
+    padding: 1rem;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+  }
+
+  .if-dropdown-open {
+    display: none;
+  }
+
+  .if-dropdown-close {
+    display: inherit;
+  }
+
+  &.open, &.hoverable:hover {
+    .if-dropdown-open {
+      display: inherit;
+    }
+  
+    .if-dropdown-close {
+      display: none;
+    }
+
+    > .dropdown-content {
+      animation: dropdownToggle .25s ease;
+      display: block;
+      margin-top: .25rem;
+      opacity: 1;
+    }
+  }
+}
+
+@keyframes dropdownToggle {
+    0% {
+        opacity: 0;
+        margin-top: -0.25rem;
+    }
+    100% {
+        opacity: 1;
+        margin-top: .25rem;
+    }
+}
